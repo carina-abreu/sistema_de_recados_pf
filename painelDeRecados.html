@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel de Recados</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meus Recados</h1>
+      <a href="./index.html">
+        <button type="button">Sair</button>
+      </a>
+    </header>
+    <div id="novoRecado">
+      <h2>Crie um novo recado</h2>
+      <form id="formNovoRecado" action="">
+        <label for="nomeRecado">Nome do Recado:</label>
+        <input
+          type="text"
+          name="nomeRecado"
+          required
+          id="nomeRecado"
+          placeholder="ex: devolver livro"
+        />
+        <label for="descRecado">Descrição: </label>
+        <input
+          type="text"
+          name="descRecado"
+          required
+          id="descRecado"
+          placeholder="devolver os livros x, y e z"
+        />
+        <input type="submit" value="Salvar recado" />
+      </form>
+    </div>
+    <br /><br />
+    <div>
+      <table id="tabelaRecados">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Descrição do Recado</th>
+            <th colspan="2">Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script src="./js/painelDeRecados.js"></script>
+  </body>
+</html>

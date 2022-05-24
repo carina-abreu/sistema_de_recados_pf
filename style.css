@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Dancing+Script&family=Truculenta:opsz@12..72&family=Zen+Loop&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e4d2b3;
+  font-family: "Truculenta", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  background-color: #ac9366;
+}
+
+.section:first-child {
+  background-image: url(./assets/quadropostits.png);
+}
+.section {
+  background-color: #e4d2b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 95%;
+  margin: 10px;
+}
+
+.section_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #c65f24;
+  font-size: 40px;
+}
+header {
+  margin-left: 25px;
+  display: block;
+  align-items: flex-start;
+}
+h2 {
+  margin-left: 25px;
+  color: #e4d2b3;
+  font-size: 25px;
+  background-color: #c65f24;
+  width: 90%;
+  padding: 15px;
+}
+
+#formNovoRecado {
+  margin-left: 25px;
+  padding: 15px;
+  background-color: #ac9366;
+  color: #e4d2b3;
+  font-size: 20px;
+  width: 90%;
+}
+
+#tabelaRecados {
+  margin-left: 25px;
+  border: 1px solid #e4d2b3;
+  width: 90%;
+  border-collapse: collapse;
+}
+th {
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #e4d2b3;
+  background-color: #c65f24;
+  color: #e4d2b3;
+  font-size: 30px;
+}
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #e4d2b3;
+  background-color: #ac9366;
+  color: #e4d2b3;
+  font-size: 20px;
+}
+
+input {
+  width: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  border-radius: 4px;
+  background-color: #e4d2b3;
+}
+
+button,
+input[type="submit"] {
+  background-color: #c65f24;
+  border: #c65f24;
+  border-radius: 8px;
+  color: #e4d2b3;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Truculenta";
+}
+.imgButton {
+  width: 40px;
+  border-radius: 4px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="container">
+      <div class="section"></div>
+      <div class="section">
+        <h1>Realize seu cadastro:</h1>
+        <section class="section_cadastro">
+          <form id="formCadastro" action="">
+            <label for="login">Insira seu e-mail: </label>
+            <input
+              type="email"
+              required
+              name="login"
+              id="login"
+              placeholder="ex: joao@gmail.com"
+            /><br />
+            <label for="senha">Crie sua senha: </label>
+            <input
+              type="password"
+              required
+              name="senha"
+              id="senha"
+              placeholder="Senha"
+            /><br />
+            <label for="confSenha">Confirme sua senha: </label>
+            <input
+              type="password"
+              name="confSenha"
+              required
+              id="confSenha"
+              placeholder="Confirme a Senha"
+            /><br />
+            <input type="submit" value="Cadastrar" />
+            <a href="./index.html">
+              <button type="button">Retornar</button>
+            </a>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="./js/cadastro.js"></script>
+  </body>
+</html>
